@@ -19,7 +19,9 @@ for x in range(n):
 lex_list = []
 n = int(input('Enter no. of elements in the lex list - '))
 for x in range(n):
-	lex_list.append(input('Enter the lex char'))
+	lex_list.append(input('Enter the lex char: '))
 
 lex(in_list,lex_list)
+
+#Changes made for Git assignment
 

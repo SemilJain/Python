@@ -1,5 +1,5 @@
 def main():
-	BA = ('Akash','Zampa','Souresh')
+	BA = ('Akash','Zampa','Souresh','GitSample')
 	DE = ('Pranit', 'Mihir','Sitanshu','Darshan','Sanmid')
 	PE = ('Rahul','Semil','Sid','Hemant','Sakshi','Pavan','Lavesh')
 	SD = ('Aakanksha','Harsh','Riya','Nishita','Yashraj')
