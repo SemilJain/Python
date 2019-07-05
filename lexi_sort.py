@@ -14,7 +14,7 @@ def lex(A,B):
 in_list = []
 n = int(input('Enter no. of strings in the list - '))
 for x in range(n):
-	in_list.append(input('Enter the string'))
+	in_list.append(input('Enter the string - '))
 
 lex_list = []
 n = int(input('Enter no. of elements in the lex list - '))
@@ -23,5 +23,22 @@ for x in range(n):
 
 lex(in_list,lex_list)
 
-#Changes made for Git assignment
+'''
+Output
+Enter no. of strings in the list - 6
+Enter the string - cat
+Enter the string - catf
+Enter the string - fat
+Enter the string - car
+Enter the string - cat
+Enter the string - taf
+Enter no. of elements in the lex list - 5
+Enter the lex char: f
+Enter the lex char: r
+Enter the lex char: c
+Enter the lex char: t
+Enter the lex char: a
+['fat', 'car', 'cat', 'cat', 'catf', 'taf']
+
+'''
 

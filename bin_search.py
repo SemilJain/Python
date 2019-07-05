@@ -18,7 +18,7 @@ def main():
 	list = []
 	n = int(input('Enter no. of elements in the list - '))
 	for x in range(n):
-		list.append(int(input('Enter the element')))
+		list.append(int(input('Enter the element - ')))
 
 	list.sort()
 
@@ -33,3 +33,30 @@ def main():
 
 if __name__ == '__main__':
 	main()
+
+
+'''Output
+Enter no. of elements in the list - 5
+Enter the element - 1
+Enter the element - 8
+Enter the element - 13
+Enter the element - 15
+Enter the element - 17
+Enter the item to be searched - 13
+The item was found at index 3
+
+Enter no. of elements in the list - 5
+Enter the element - 1
+Enter the element - 8
+Enter the element - 13
+Enter the element - 15
+Enter the element - 17
+Enter the item to be searched - 2
+Traceback (most recent call last):
+  File "bin_search.py", line 35, in <module>
+    main()
+  File "bin_search.py", line 30, in main
+    raise Exception('Element not found.')
+Exception: Element not found.
+
+'''
